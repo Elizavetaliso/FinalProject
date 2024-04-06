@@ -1,6 +1,6 @@
 
     @media (min-width: 768px) { 
-        .main , .first , .second , button , .button , .bag , .text2 , .img , .container2 , .card-title , .card-text , .container  
+        .main , .first , .second , button , .animate__puls , .bag , .text2 , .img , .container2 , .card-title , .card-text , .container  
         { border-left:solid 1px rgba(255,255,255,0.10); } 
     }
 
@@ -45,10 +45,11 @@ button{
 }
 
  .button{
-    
-    text-align: center;
+     text-align: center;
     color: aliceblue;
     font-family: "Kanit";
+    animation-iteration-count: 3;
+    animation-duration: 5s;
  }
 .bag{
    
