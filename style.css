@@ -12,7 +12,7 @@
     margin-top: 20px;
 }
 .first{
-    
+    animation-duration: 5s;
     flex-direction: column;
     text-align: left;
     font-family: "Kanit";
@@ -48,8 +48,7 @@ button{
      text-align: center;
     color: aliceblue;
     font-family: "Kanit";
-    animation-iteration-count: 3;
-    animation-duration: 5s;
+   
  }
 .bag{
    
